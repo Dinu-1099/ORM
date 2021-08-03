@@ -1,5 +1,6 @@
 const { user } = require("../config/db.config");
 
+//model
 module.exports = (sequelize,Sequelize)=>{
     const Customer = sequelize.define('customer',{
         cname:{
