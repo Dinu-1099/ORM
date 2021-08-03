@@ -17,13 +17,13 @@ module.exports = (sequelize,Sequelize)=>{
         
     });
 
-    user.associate = models=>{
+//     user.associate = models=>{
 
-        Customer.belongsTo(models.user.model,{
-            foreignKey:{
-                allowNull:false
-            }
-        });
+//         Customer.belongsTo(models.user.model,{
+//             foreignKey:{
+//                 allowNull:false
+//             }
+//         });
 
     }
 
